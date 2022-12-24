@@ -2,11 +2,28 @@ h1{
     font-size: 50px;
 
 }
-.name-color{
+span{
     color: orange;
 }
 .same{
+    display: flex;   
+}
+.text{
+    padding-left: 5%;
+    font-size: 25px;
+}
+.link{
+    text-decoration: none;
+    background:linear-gradient(rgb(232, 115, 5), rgb(234, 161, 45));
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+.same2{
     display: flex;
-    
-    
+    margin: 40px 10px;
+    padding-top: 100px;
+}
+.img-same{
+    padding-top: 60px;
 }
