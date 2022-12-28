@@ -1,16 +1,28 @@
+body{
+    background: url(/Screenshot_2022-12-28_232714-removebg-preview.png) no-repeat ;
+    
+}
 h1{
-    font-size: 50px;
+    font-size: 30px;
 
 }
+
 span{
     color: orange;
 }
-.same{
-    display: flex;   
+.same3{
+    display: flex;
+   
 }
+.same{
+    display: flex;
+}
+
 .text{
     padding-left: 5%;
     font-size: 25px;
+   
+    
 }
 .link{
     text-decoration: none;
@@ -23,7 +35,48 @@ span{
     display: flex;
     margin: 40px 10px;
     padding-top: 100px;
+    padding-left: 5%;
 }
 .img-same{
-    padding-top: 60px;
+    padding-top: 100px;
+    padding-right: 0%;
+}
+.img-same1{
+   
+    padding-right: 5%;
+   
+}
+#text-p{
+    width: 100%;
+    position: relative;
+}
+.sam{
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 5px 5px 30px;
+    margin-left: 5%;
+    padding: 20px 20px;
+    margin-right: 5%;
+    border-left: 7px solid#FF7300;
+    width: 50%;
+    
+}
+.text-content h1 {
+    font-size: 45px;
+}
+#border-sam-color{
+    border-left: 7px solid blue;
+}
+.h1-exp-img{
+    background: url(/solid_img_css_bg-removebg-preview.png) no-repeat;
+    background-size: 150px;
+   
+}
+
+p{
+    font-size: 22px;
+}
+.exp-text{
+    margin: 5%;
+    font-size: 45px;
 }
