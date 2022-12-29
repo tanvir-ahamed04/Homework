@@ -10,8 +10,36 @@ h1{
 span{
     color: orange;
 }
+header{
+    display: flex;
+    justify-content: space-between;
+    padding:1.5rem 7%;
+    border-bottom: var(--border);
+  
+    top:0px; left: 0; right: 0; bottom: 60;
+    z-index: 1000;
+}
+header img{
+    height: 70%;
+}
+.li-list{
+    display: flex;
+   margin-top: 2%;
+   margin-right: 5%;
+}
+.li-list a{
+    text-decoration: none;
+    color: black;
+    padding:30px ;
+    margin-left: 40px;
+}
+header .li-list a:hover{
+    text-decoration: underline;
+    color: #FF7300;
+}   
 .same3{
     display: flex;
+   
    
 }
 .same{
