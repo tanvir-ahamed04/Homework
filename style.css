@@ -1,5 +1,5 @@
 body{
-    background: url(/Screenshot_2022-12-28_232714-removebg-preview.png) no-repeat ;
+    background: url(Screenshot_2022-12-28_232714-removebg-preview.png) no-repeat ;
     
 }
 h1{
@@ -96,7 +96,7 @@ header .li-list a:hover{
     border-left: 7px solid blue;
 }
 .h1-exp-img{
-    background: url(/solid_img_css_bg-removebg-preview.png) no-repeat;
+    background: url(solid_img_css_bg-removebg-preview.png) no-repeat;
     background-size: 150px;
    
 }
