@@ -1,12 +1,25 @@
-body{
-    background: url(Screenshot_2022-12-28_232714-removebg-preview.png) no-repeat ;
-    
+.bg{
+  background: url(background.png) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  min-height: 500px;
 }
 h1{
     font-size: 30px;
 
 }
-
+.bg-text h2{
+    color: black;
+}
+.bg-text{
+    text-decoration: none;
+    animation: movedown 1s linear;
+    animation-delay: 1s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
 span{
     color: orange;
 }
@@ -19,27 +32,45 @@ header{
     top:0px; left: 0; right: 0; bottom: 60;
     z-index: 1000;
 }
-header img{
-    height: 70%;
+
+
+@keyframes movedown{
+    0%{
+        transform: translateY(-100px);
+        visibility: visible;
+    }
+    100%{
+        transform: translateY(0);
+        visibility: visible;
+    }
 }
+
 .li-list{
     display: flex;
-   margin-top: 0.5%;
    margin-right: 2%;
+   animation: movedown 1s linear;
+   animation-delay: 2s;
+   visibility: hidden;
+   animation-fill-mode: forwards;
+ 
 }
 .li-list a{
     text-decoration: none;
     color: black;
     padding:20px ;
     margin-left: 20px;
-
+   
+    
 }
+
+
 header .li-list a:hover{
     text-decoration: underline;
     color: #FF7300;
 }   
 .same3{
     display: flex;  
+   
 }
 .same{
     display: flex;
@@ -48,9 +79,22 @@ header .li-list a:hover{
 .text{
     padding-left: 5%;
     font-size: 25px;
-   
-    
+    animation: moveright 1s linear;
+    animation-delay: 3s;
+    visibility: hidden;
+    animation-fill-mode: forwards;   
 }
+@keyframes moveright{
+    0%{
+        transform: translatex(-100px);
+        visibility: visible;
+    }
+    100%{
+        transform: translatex(0);
+        visibility: visible;
+    }
+}
+
 .link{
     text-decoration: none;
     background:linear-gradient(rgb(232, 115, 5), rgb(234, 161, 45));
@@ -70,6 +114,29 @@ header .li-list a:hover{
 }
 .img-same1{
     padding-right: 5%;
+    animation: zoomin 1s linear;
+    animation-delay: 4s;
+    visibility: hidden;
+    animation-fill-mode: forwards; 
+}
+.img-same2-2ndpage{
+    height: 350px;
+    width: 350px;
+    border-radius: 15px;
+    animation: zoomin 1s linear;
+    animation-delay: 5s;
+    visibility: hidden;
+    animation-fill-mode: forwards; 
+}
+@keyframes zoomin{
+    0%{
+        transform: scale(0.5);
+        visibility: visible;
+    }
+    100%{
+        transform: scale(1);
+        visibility: visible;
+    }
 }
 
 #text-p{
