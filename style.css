@@ -1,10 +1,6 @@
-.bg{
-  background: url(background.png) no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  min-height: 500px;
+body{
+  background: url(Screenshot_2022-12-28_232714-removebg-preview.png) no-repeat;
+  
 }
 h1{
     font-size: 30px;
@@ -27,10 +23,8 @@ header{
     display: flex;
     justify-content: space-between;
     padding:1.5rem 7%;
-    border-bottom: var(--border);
-  
     top:0px; left: 0; right: 0; bottom: 60;
-    z-index: 1000;
+
 }
 
 
@@ -56,10 +50,10 @@ header{
 }
 .li-list a{
     text-decoration: none;
-    color: black;
+    color: rgb(8, 7, 7);
     padding:20px ;
     margin-left: 20px;
-   
+    
     
 }
 
@@ -67,6 +61,7 @@ header{
 header .li-list a:hover{
     text-decoration: underline;
     color: #FF7300;
+    
 }   
 .same3{
     display: flex;  
